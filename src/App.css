@@ -1,7 +1,7 @@
 /************ Custom Font ************/
-@font-face {
+/* @font-face {
 	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Bold.ttf');
+	/* src: url('./assets/font/CentraNo2-Bold.ttf'); 
 	font-weight: 700;
 }
 @font-face {
@@ -13,7 +13,7 @@
 	font-family: Centra;
 	src: url('./assets/font/CentraNo2-Book.ttf');
 	font-weight: 400;
-}
+} */
 
 /************ Default Css ************/
 * {
@@ -82,6 +82,11 @@ p.danger {
 	color: red;
 }
 /************ Navbar Css ************/
+@media (min-width: 768px) {
+.navbar-expand-md {
+  flex-wrap: wrap-reverse !important;
+}
+}
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -236,7 +241,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/ionela-mat--a8A-n-zqmk-unsplash.jpg');
+  background-image: url('./assets/img/bg.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -265,6 +270,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+  text-align: justify;
 }
 .banner button {
   color: #fff;

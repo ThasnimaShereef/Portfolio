@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/profile.jpg";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
-//import { BsArrowRight } from 'react-icons/bs';
+import { ArrowRightCircle } from 'react-bootstrap-icons'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -57,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Thasnima`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Thasnima`} <span className="txt-rotate" data-period="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm a passionate software developer with a strong interest in full-stack web development. I enjoy building responsive, user-focused applications and continuously expanding my skillset by exploring new technologies. Whether it's crafting clean UI/UX or writing efficient backend logic, I'm always eager to learn, grow, and take on new challenges in the tech world.</p>
                   <button onClick={() => {
                     const connectSection = document.getElementById('connect');

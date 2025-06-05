@@ -30,9 +30,8 @@ export const NavBar = () => {
   return (
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
-        <Container>
-          <Navbar.Brand>
-            {/* <img src={logo} alt="Logo" /> */}
+        <Container fluid="md">
+          <Navbar.Brand className="d-flex align-items-center">
              <a
                 href="https://drive.google.com/file/d/136oHiK60ES0XLHT9kOaB7sLi1kIeWdrG/view?usp=drive_link" // Change this to your actual resume file path or external URL
                 target="_blank"
@@ -45,10 +44,10 @@ export const NavBar = () => {
               </button>
             </a>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" >
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
             <Nav className="ms-auto">
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>

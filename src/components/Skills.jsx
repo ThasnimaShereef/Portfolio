@@ -1,18 +1,18 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png";
-import htmlIcon from "../assets/img/html.png";
-import cssIcon from "../assets/img/css.png";
-import jsIcon from "../assets/img/js.png";
-import reactIcon from "../assets/img/react.png";
-import javaIcon from "../assets/img/java.png";
-import sqlIcon from "../assets/img/sql.png";
-import githubIcon from "../assets/img/git.png";
-import csharpIcon from "../assets/img/c-sharp.png";
-import jqueryIcon from "../assets/img/jquery.png";
-import mysqlIcon from "../assets/img/mysql.png";
-import pythonIcon from "../assets/img/python.png";
-import vsIcon from "../assets/img/visual-studio-code.png";
+import htmlIcon from "../assets/img/skills/html.png";
+import cssIcon from "../assets/img/skills/css.png";
+import jsIcon from "../assets/img/skills/js.png";
+import reactIcon from "../assets/img/skills/react.png";
+import javaIcon from "../assets/img/skills/java.png";
+import sqlIcon from "../assets/img/skills/sql.png";
+import githubIcon from "../assets/img/skills/git.png";
+import csharpIcon from "../assets/img/skills/c-sharp.png";
+import jqueryIcon from "../assets/img/skills/jquery.png";
+import mysqlIcon from "../assets/img/skills/mysql.png";
+import pythonIcon from "../assets/img/skills/python.png";
+import vsIcon from "../assets/img/skills/visual-studio-code.png";
 
 export const Skills = () => {
   const responsive = {
