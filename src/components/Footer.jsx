@@ -10,7 +10,7 @@ export const Footer = () => {
         <Row className="align-items-center">
           <Col xs={12} sm={6} className="text-center text-sm-start mb-3 mb-sm-0">
              <a
-                href="https://drive.google.com/file/d/136oHiK60ES0XLHT9kOaB7sLi1kIeWdrG/view?usp=drive_link" // Change this to your actual resume file path or external URL
+                href="https://drive.google.com/file/d/1tdxMQhQlSLT-RTO0aCDdExyiXvhPafgy/view?usp=sharing" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="navbar-text"
@@ -27,7 +27,6 @@ export const Footer = () => {
               <a href="mailto:thasnimashereef@gmail.com"><img src={gmail} alt="Icon" /></a>
               <a href="https://github.com/ThasnimaShereef" target="_blank" rel="noreferrer"><img src={github} alt="Icon" /></a>
             </div>
-            {/* <p>Copyright 2025. All Rights Reserved</p> */}
           </Col>
         </Row>
       </Container>
