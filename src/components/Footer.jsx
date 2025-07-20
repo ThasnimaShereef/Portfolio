@@ -10,7 +10,7 @@ export const Footer = () => {
         <Row className="align-items-center">
           <Col xs={12} sm={6} className="text-center text-sm-start mb-3 mb-sm-0">
              <a
-                href="https://drive.google.com/file/d/1tdxMQhQlSLT-RTO0aCDdExyiXvhPafgy/view?usp=sharing" 
+                href="https://drive.google.com/file/d/1-dqTuasw_ixJP54IPxSU44YuiW-7HNUe/view?usp=sharing" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="navbar-text"

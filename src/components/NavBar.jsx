@@ -33,7 +33,7 @@ export const NavBar = () => {
         <Container fluid="md">
           <Navbar.Brand className="d-flex align-items-center">
              <a
-                href="https://drive.google.com/file/d/1tdxMQhQlSLT-RTO0aCDdExyiXvhPafgy/view?usp=sharing" // Change this to your actual resume file path or external URL
+                href="https://drive.google.com/file/d/1-dqTuasw_ixJP54IPxSU44YuiW-7HNUe/view?usp=sharing" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="navbar-text"

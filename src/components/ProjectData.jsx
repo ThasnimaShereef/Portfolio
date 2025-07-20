@@ -20,11 +20,11 @@ export const projects1 = [
       githubLink: "https://github.com/ThasnimaShereef/PGLife",
     },
     {
-      title: "Kala Kendra",
-      description: "Interior Design Portfolio",
-      imgUrl: kalakendra,
+      title: "Project Management and Visualization",
+      description: "Manage Projects Visually",
+      imgUrl: map,
       // liveLink: "https://thasnimashereef.github.io/kalakendra/",
-      githubLink: "https://github.com/ThasnimaShereef/kalakendra",
+      githubLink: "https://github.com/ThasnimaShereef/Project-Management-and-Visualization",
     },
     {
       title: "Traffic Sign Recognition System",
@@ -42,7 +42,7 @@ export const projects1 = [
       title: "Real-time Collaborative Text Editor",
       description: "Real-Time Team Editing",
       imgUrl: editor,
-      liveLink: "https://thasnima-shereef-wasserstoff-front-iota.vercel.app/",
+      // liveLink: "https://thasnima-shereef-wasserstoff-front-iota.vercel.app/",
       githubLink: "https://github.com/ThasnimaShereef/Real-Time-Collaborative-Text-Editor",
     },
     {
